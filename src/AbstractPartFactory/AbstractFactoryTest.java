@@ -1,14 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package AbstractPartFactory;
 
 /**
  *
  * @author Liren
  */
+
+/* This part of test is creating different electronic parts produced by different
+manufacturers. If the test is successful, the console will display the parts
+we create.
+*/
 public class AbstractFactoryTest {
     public static void main(String[] args){
         PartFactory VikingPartFactory = FactoryProducer.getPartFactory("Viking");
