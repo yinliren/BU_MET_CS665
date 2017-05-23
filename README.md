@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Electronic Parts Distributor Management System
 
-##Description:
+## Description:
 
 This is a new project, and there’s nothing built before. This project is a management system for electronic parts distributors. It helps managers monitoring the quantity of each electronic part in warehouse and in transit due to the order placed. 
 Different role of users will be given different authorizations. System administrators are allowed to setting up new accounts and give different level of authorizations. Managers have the highest authorization to make changes of all electronic parts’ information, manufacturers’ and customers’ contact information. Sales cannot see the buy-in price and the contact information of manufacturers, and sales cannot generate procurement report either. Only managers and procurement staff have the authorization to generate procurement reports. All members except warehouse staff can generate sales report to do the sales analysis. Sales are able to see all parts’ information except the information of purchasing. 
