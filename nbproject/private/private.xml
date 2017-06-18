@@ -2,16 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/Liren/Documents/NetBeansProjects/Liren_Yin_METCS665_SummerI2017/src/AbstractPartFactory/Resistor.java</file>
-            <file>file:/C:/Users/Liren/Documents/NetBeansProjects/Liren_Yin_METCS665_SummerI2017/src/AbstractPartFactory/Capacitor.java</file>
-            <file>file:/C:/Users/Liren/Documents/NetBeansProjects/Liren_Yin_METCS665_SummerI2017/src/AbstractPartFactory/Battery.java</file>
-            <file>file:/C:/Users/Liren/Documents/NetBeansProjects/Liren_Yin_METCS665_SummerI2017/src/AbstractPartFactory/PartFactory.java</file>
-            <file>file:/C:/Users/Liren/Documents/NetBeansProjects/Liren_Yin_METCS665_SummerI2017/src/AbstractPartFactory/Part.java</file>
-            <file>file:/C:/Users/Liren/Documents/NetBeansProjects/Liren_Yin_METCS665_SummerI2017/src/AbstractPartFactory/ManningPartFactory.java</file>
-            <file>file:/C:/Users/Liren/Documents/NetBeansProjects/Liren_Yin_METCS665_SummerI2017/src/AbstractPartFactory/AbstractFactoryTest.java</file>
-            <file>file:/C:/Users/Liren/Documents/NetBeansProjects/Liren_Yin_METCS665_SummerI2017/src/AbstractPartFactory/VikingPartFactory.java</file>
-            <file>file:/C:/Users/Liren/Documents/NetBeansProjects/Liren_Yin_METCS665_SummerI2017/src/AbstractPartFactory/Inductor.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

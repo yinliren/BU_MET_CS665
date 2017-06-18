@@ -36,7 +36,7 @@ public class Inductor implements Part{
     public void properties(){
          System.out.println("Part Number:" + partNum);
         System.out.println("Capacitor Type:" + type);
-        System.out.println("Capacitance:" + inductance + " Ohms");
+        System.out.println("Capacitance:" + inductance + " Henry");
         System.out.println("Tolerance:" + tolerance + "%");
         System.out.println("Packing:" + packing);
         System.out.println("Price In: $" + priceIn);
