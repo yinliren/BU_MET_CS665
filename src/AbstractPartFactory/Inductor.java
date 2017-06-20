@@ -35,13 +35,18 @@ public class Inductor implements Part{
     @Override
     public void properties(){
          System.out.println("Part Number:" + partNum);
-        System.out.println("Capacitor Type:" + type);
-        System.out.println("Capacitance:" + inductance + " Henry");
+        System.out.println("Inductor Type:" + type);
+        System.out.println("Inductance:" + inductance + " Henry");
         System.out.println("Tolerance:" + tolerance + "%");
         System.out.println("Packing:" + packing);
         System.out.println("Price In: $" + priceIn);
         System.out.println("Price Out: $" + priceOut);
         System.out.println("Unit Weight:" + unitWeight);
         System.out.println();
+    }
+
+    @Override
+    public String retrievePart() {
+        return "Inductor: P/N " + partNum + " | Inductance:" + inductance + " Henry" + " | Tolerance:" + tolerance + "%"; 
     }
 }

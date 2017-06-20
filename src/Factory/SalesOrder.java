@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package AbstractPartFactory;
+package Factory;
 
 /**
  *
  * @author Liren
  */
-public interface Part {
-    void properties();
-    String retrievePart();
+public interface SalesOrder {
+    void create(String salesName, double total);
 }

@@ -5,6 +5,8 @@
  */
 package IteratorANDInterpreter_EmployeeManage;
 
+import java.util.ArrayList;
+
 public abstract class Expression {
-    public abstract double evaluate(QuestionContext keywords);
+    public abstract void demo();
 }

@@ -31,6 +31,7 @@ public class Battery implements Part{
         this.unitWeight = unitWeight;
         
     }
+
     
     @Override
     public void properties() {
@@ -43,6 +44,11 @@ public class Battery implements Part{
         System.out.println("Price Out: $" + priceOut);
         System.out.println("Unit Weight:" + unitWeight);
         System.out.println();
+    }
+
+    @Override
+    public String retrievePart() {
+        return "Battery, P/N: " + partNum + " | Voltage: " + voltage + " | Current:" + current + " Amps" + " | Impedence:" + impedence + " Ohms";
     }
     
 }

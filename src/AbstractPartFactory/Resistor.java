@@ -49,4 +49,9 @@ public class Resistor implements Part{
         System.out.println("Unit Weight:" + unitWeight);
         System.out.println();
     }
+
+    @Override
+    public String retrievePart() {
+        return "Resistor: P/N " + partNum + " | Resistance:" + resistance + " Ohms" + " | Tolerance:" + tolerance + "%" + " | Power:" + power + " Watts";
+    }
 }

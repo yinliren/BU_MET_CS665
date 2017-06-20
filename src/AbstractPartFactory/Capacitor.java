@@ -40,4 +40,9 @@ public class Capacitor implements Part{
         System.out.println("Unit Weight:" + unitWeight);
         System.out.println();
     }
+
+    @Override
+    public String retrievePart() {
+        return "Capacitor: P/N" + partNum + " | Capacitance:" + capacitance + " Farad" + " | Tolerance:" + tolerance + "%";
+    }
 }
