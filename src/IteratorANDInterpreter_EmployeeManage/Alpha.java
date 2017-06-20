@@ -3,13 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package AbstractPartFactory;
+package IteratorANDInterpreter_EmployeeManage;
 
-/**
- *
- * @author Liren
- */
-public interface Part {
-    void properties();
-    String retrievePart();
+import java.util.ArrayList;
+
+public class Alpha extends Expression{
+    @Override
+    public void demo() {
+        
+    }
+    
 }

@@ -3,16 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package AbstractPartFactory;
+package IteratorANDInterpreter_EmployeeManage;
 
 /**
  *
  * @author Liren
  */
-public class FactoryProducer {
-    public static PartFactory getPartFactory(String factoryType){
-     
- 
-        return null;
+public class data {
+    String salesName;
+    int orderNum;
+    
+    public data(String name, int num){
+        this.salesName = name;
+        this.orderNum = num;
     }
+    
 }
